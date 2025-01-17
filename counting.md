@@ -1,4 +1,4 @@
-# Counting Numbers with Different Text and Colors
+# Counting Numbers
 
 Here is a list of numbers with different text styles and colors:
 ```markdown
