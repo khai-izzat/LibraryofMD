@@ -1,2 +1,2 @@
-# Centagate Introduction TEST (U4)
+# Centagate Introduction TEST
 Centagate Introduction in MD for Testing Docusaurus
