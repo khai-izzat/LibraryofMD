@@ -1,0 +1,54 @@
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+
+# 🔧 App Integration
+
+App Integration allows you to integrate applications that are registered under your company. Integration between third-party applications and CENTAGATE Cloud is based on OAuth 2.0 standards.
+
+## Integration Steps
+
+<Tabs>
+  <TabItem value="register" label="1. Register Application" default>
+
+1. **Navigate to the Applications section** in your CENTAGATE Cloud dashboard.
+2. **Click on 'Register New Application'**.
+3. **Fill in the required details**:
+   - **Application Name**: Choose a unique name for your application.
+   - **Redirect URI**: Specify the URI where the authorization code will be sent.
+4. **Save the application** to generate the Client ID and Client Secret.
+
+  </TabItem>
+  <TabItem value="configure" label="2. Configure OAuth 2.0">
+
+1. **Set the authorization endpoint** to: https://auth.centagatecloud.com/oauth2/authorize
+
+2. **Set the token endpoint** to: https://auth.centagatecloud.com/oauth2/token
+
+3. **Use the Client ID and Client Secret** obtained during registration for authentication.
+
+</TabItem>
+<TabItem value="scopes" label="3. Define Scopes">
+
+1. **Determine the access levels** your application requires.
+2. **Request the appropriate scopes** during the OAuth 2.0 authorization process.
+
+</TabItem>
+<TabItem value="test" label="4. Test Integration">
+
+1. **Initiate the OAuth 2.0 flow** from your application.
+2. **Ensure that users can authenticate** and authorize the application successfully.
+3. **Verify that your application receives the access token** and can access the requested resources.
+
+</TabItem>
+</Tabs>
+
+## Best Practices
+
+- **Secure your Client Secret**: Never expose it in client-side code or public repositories.
+- **Use HTTPS**: Ensure all communication between your application and CENTAGATE Cloud is encrypted.
+- **Regularly review permissions**: Periodically check and update the scopes your application requests to follow the principle of least privilege.
+
+## Additional Resources
+
+- [OAuth 2.0 Overview](https://oauth.net/2/)
+- [CENTAGATE Cloud API Documentation](https://console.centagatecloud.com/docs/api)
