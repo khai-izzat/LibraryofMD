@@ -1,2 +1,2 @@
 # Centagate Introduction
-Centagate Introduction in MD for Testing Docusaurus
+Centagate Introduction in MD for Testing Docusaurus.
