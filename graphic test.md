@@ -5,4 +5,4 @@
 
 
 ## 🖼️ GitHub-hosted Image
-![GitHub Image](https://raw.githubusercontent.com/LibraryofMD/main/example.png)
+![GitHub Image](https://raw.githubusercontent.com/LibraryofMD/main/images/example.png)
