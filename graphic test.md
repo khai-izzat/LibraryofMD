@@ -6,3 +6,7 @@
 
 ## 🖼️ GitHub-hosted Image
 ![GitHub Image](https://raw.githubusercontent.com/LibraryofMD/main/images/example.png)
+
+
+## 🖼️ Local Docusaurus Image
+![Local Image](/img/CENTAGATECLOUD.svg)
