@@ -1,7 +1,6 @@
-import React from 'react';
-
-# Letters with Different Fonts and Sizes
 ```MARKDOWN
+# Letters with Different Fonts and Sizes
+
 ## A
 <span style="font-family: Arial; font-size: 20px;">A</span>
 
