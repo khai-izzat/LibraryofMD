@@ -1,4 +1,4 @@
-# 📖 Docusaurus Content Contribution Guide
+# 📖 Write Documentation Guide
 
 Welcome to the **Docusaurus Documentation Project**! This guide will walk you through **how to create, edit, and manage content** for this project using **GitHub's web interface**.
 
