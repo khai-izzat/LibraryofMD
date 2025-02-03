@@ -1,4 +1,4 @@
-# 🖼️ 3 Example Markdown with Images and GIFs
+# 🖼️ 3 Example Images and GIFs Display
 
 ## 🖼️ GitHub-hosted Image
 Example how to call and display an image from github repository. https://raw.githubusercontent.com/khai-izzat/LibraryofMD/main/example2.png
