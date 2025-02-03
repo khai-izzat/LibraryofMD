@@ -1,3 +1,5 @@
+import React from 'react';
+
 # Letters with Different Fonts and Sizes
 
 ## A
