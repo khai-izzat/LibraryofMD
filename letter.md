@@ -1,4 +1,3 @@
-```markdown
 # Letters with Different Fonts and Sizes
 
 ## A
@@ -15,4 +14,3 @@
 
 ## E
 <span style="font-family: Georgia; font-size: 40px;">E</span>
-```
