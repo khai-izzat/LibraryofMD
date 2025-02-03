@@ -8,10 +8,10 @@ By following this guide, you will learn how to:\
 ✅ **Understand and use Markdown & MDX formatting** for better documentation.\
 ✅ **Add images, GIFs, and videos** to enhance the documentation.
 
-Resource:
-Write MD basic syntax: [Basic MD Syntax](https://www.markdownguide.org/basic-syntax/)
-Write MD extended syntax: [Extended MD Syntax](https://www.markdownguide.org/extended-syntax/)
-MDX Component Guide: [MDX for additional UI/UX Function Guide](https://mdxjs.com/guides/)
+Resource:\
+Write MD basic syntax: [Basic MD Syntax](https://www.markdownguide.org/basic-syntax/)\
+Write MD extended syntax: [Extended MD Syntax](https://www.markdownguide.org/extended-syntax/)\
+MDX Component Guide: [MDX for additional UI/UX Function Guide](https://mdxjs.com/guides/)\
 
 ---
 
