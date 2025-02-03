@@ -1,0 +1,134 @@
+---
+title: Full MDX Components Test
+description: A complete MDX file to test all supported components in Docusaurus.
+---
+
+import React from 'react';
+import Tabs from '@theme/Tabs';
+import TabItem from '@theme/TabItem';
+import CodeBlock from '@theme/CodeBlock';
+
+# 🏗️ Full MDX Test Page
+
+This document tests **all possible MDX features** in Docusaurus, including:
+✅ Standard Markdown
+✅ React Components
+✅ Docusaurus Components
+✅ Code Blocks
+✅ Tables, Admonitions, and More!
+
+---
+
+## 📌 Basic Formatting
+
+**Bold Text**, *Italic Text*, ~~Strikethrough~~, `Inline Code`
+
+> **Blockquote Example:**
+> This is a blockquote with multiple lines.
+
+## 📝 Lists
+
+### ✅ Unordered List
+- Item 1
+  - Sub-item 1.1
+  - Sub-item 1.2
+- Item 2
+
+### 🔢 Ordered List
+1. First Item
+   1. Nested Item
+   2. Nested Item
+2. Second Item
+
+---
+
+## 📌 Tables
+
+| Feature   | Supported? |
+|-----------|------------|
+| Markdown  | ✅ Yes |
+| MDX Components | ✅ Yes |
+| React | ✅ Yes |
+
+---
+
+## 🎨 Code Blocks
+
+### JavaScript Example:
+
+```javascript
+const hello = "Hello, World!";
+console.log(hello);
+```
+
+### Python Example:
+
+<CodeBlock language="python">
+def greet():
+    print("Hello, World!")
+greet()
+</CodeBlock>
+
+---
+
+## 🔔 Admonitions (Alerts)
+
+:::info
+This is an **info alert**!
+:::
+
+:::warning
+This is a **warning alert**!
+:::
+
+:::danger
+This is a **danger alert**!
+:::
+
+---
+
+## 🖼️ Images
+
+### External Image:
+![Docusaurus Logo](https://docusaurus.io/img/docusaurus.png)
+
+### Local Image:
+![Local Image](../static/img/local-image.png)
+
+---
+
+## 🎭 Tabs Example
+
+<Tabs>
+  <TabItem value="js" label="JavaScript">
+    ```javascript
+    console.log("JavaScript Code");
+    ```
+  </TabItem>
+  <TabItem value="py" label="Python">
+    ```python
+    print("Python Code")
+    ```
+  </TabItem>
+</Tabs>
+
+---
+
+## 🎬 Embedding Video
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
+
+---
+
+## 🛠️ React Component Example
+
+import MyButton from '@site/src/components/MyButton';
+
+<MyButton label="Click Me!" />
+
+---
+
+## 🎯 Final Test
+
+If everything displays correctly, your **Docusaurus setup supports full MDX features!** 🚀
+
